@@ -2,7 +2,7 @@
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_krT-geBkEe2rfs6Tor6yxw" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_krT-guBkEe2rfs6Tor6yxw" bindingContexts="_krT-i-BkEe2rfs6Tor6yxw">
   <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.st.stm32cube.common.mx.startCubeMx&quot; name=&quot;EmptyProject.ioc&quot; tooltip=&quot;EmptyProject/EmptyProject.ioc&quot;>&#xD;&#xA;&lt;persistable path=&quot;/EmptyProject/EmptyProject.ioc&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_krT-guBkEe2rfs6Tor6yxw" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_k2iXEuBkEe2rfs6Tor6yxw" x="52" y="52" width="1024" height="768">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_krT-guBkEe2rfs6Tor6yxw" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_k2iXEuBkEe2rfs6Tor6yxw" x="338" y="116" width="1024" height="768">
     <persistedState key="coolBarVisible" value="true"/>
     <persistedState key="perspectiveBarVisible" value="true"/>
     <persistedState key="isRestored" value="true"/>
@@ -358,7 +358,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_k37eMOBkEe2rfs6Tor6yxw" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_k3-hgOBkEe2rfs6Tor6yxw" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_krryEOBkEe2rfs6Tor6yxw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_MT7x0OFSEe2WqK5RVr6w_A" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_krryEOBkEe2rfs6Tor6yxw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_k37eMeBkEe2rfs6Tor6yxw" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -371,7 +371,7 @@
         <tags>toolbarSeparator</tags>
         <children xsi:type="menu:ToolBarSeparator" xmi:id="_k37eNeBkEe2rfs6Tor6yxw" elementId="additions" toBeRendered="false"/>
       </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_k7K_cOBkEe2rfs6Tor6yxw" elementId="org.eclipse.cdt.ui.CElementCreationActionSet" visible="false">
+      <children xsi:type="menu:ToolBar" xmi:id="_k7K_cOBkEe2rfs6Tor6yxw" elementId="org.eclipse.cdt.ui.CElementCreationActionSet">
         <tags>Draggable</tags>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_k7xcYOBkEe2rfs6Tor6yxw" elementId="org.eclipse.debug.ui.launchActionSet">
@@ -380,7 +380,7 @@
       <children xsi:type="menu:ToolBar" xmi:id="_k7dTUOBkEe2rfs6Tor6yxw" elementId="org.eclipse.search.searchActionSet">
         <tags>Draggable</tags>
       </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_k689AOBkEe2rfs6Tor6yxw" elementId="org.eclipse.ui.edit.text.actionSet.presentation" visible="false">
+      <children xsi:type="menu:ToolBar" xmi:id="_k689AOBkEe2rfs6Tor6yxw" elementId="org.eclipse.ui.edit.text.actionSet.presentation">
         <tags>Draggable</tags>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_k37eNuBkEe2rfs6Tor6yxw" elementId="group.nav" toBeRendered="false">
@@ -389,7 +389,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_k38FQOBkEe2rfs6Tor6yxw" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_k3_IkOBkEe2rfs6Tor6yxw" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_krrLCOBkEe2rfs6Tor6yxw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_MT-OEOFSEe2WqK5RVr6w_A" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_krrLCOBkEe2rfs6Tor6yxw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_k38FQeBkEe2rfs6Tor6yxw" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
