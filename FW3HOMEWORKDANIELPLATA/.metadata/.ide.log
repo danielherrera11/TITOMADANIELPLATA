@@ -1,0 +1,28 @@
+2023-04-22 10:40:05,644 [INFO] Activator:179 - 
+
+
+2023-04-22 10:40:05,646 [INFO] Activator:180 - !SESSION log4j initialized
+2023-04-22 10:40:28,792 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-04-22 10:40:28,792 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-04-22 10:40:28,793 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-04-22 10:41:12,315 [ERROR] ApiDbMcu:1619 - Can't use Application install path:
+2023-04-22 10:41:19,090 [WARN] RulesReader:63 - Compatibility file://mcu/compatibility.xml not found
+2023-04-22 10:42:15,266 [INFO] JxBrowserEngine:114 - Initiate JxBrowser Engine with user profile folder
+2023-04-22 10:42:15,838 [WARN] WebAppUi:336 - Updater plugin not available.
+2023-04-22 10:42:16,254 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-04-22 10:42:32,581 [INFO] Activator:179 - 
+
+
+2023-04-22 10:42:32,582 [INFO] Activator:180 - !SESSION log4j initialized
+2023-04-22 10:42:33,030 [ERROR] ApiDbMcu:1619 - Can't use Application install path:
+2023-04-22 10:42:39,805 [WARN] RulesReader:63 - Compatibility file://mcu/compatibility.xml not found
+2023-04-22 10:43:03,065 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-04-22 10:43:03,066 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-04-22 10:43:03,067 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-04-22 10:44:03,141 [INFO] JxBrowserEngine:114 - Initiate JxBrowser Engine with user profile folder
+2023-04-22 10:44:03,637 [WARN] WebAppUi:336 - Updater plugin not available.
+2023-04-22 10:44:03,931 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-04-22 10:44:12,189 [INFO] Activator:179 - 
+
+
+2023-04-22 10:44:12,190 [INFO] Activator:180 - !SESSION log4j initialized

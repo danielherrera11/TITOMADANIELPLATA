@@ -1,0 +1,10 @@
+13:05:49 **** Incremental Build of configuration Debug for project FW3HOMEWORKDANIELPLATA ****
+make -j12 all 
+arm-none-eabi-size   FW3HOMEWORKDANIELPLATA.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15064	     28	  35428	  50520	   c558	FW3HOMEWORKDANIELPLATA.elf
+Finished building: default.size.stdout
+ 
+
+13:05:50 Build Finished. 0 errors, 0 warnings. (took 270ms)
+
