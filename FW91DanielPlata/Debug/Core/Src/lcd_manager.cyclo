@@ -1,0 +1,7 @@
+lcd_manager.c:116:6:lcd_command	6
+lcd_manager.c:149:6:lcd_draw_pixel	1
+lcd_manager.c:165:6:lcd_test_image	3
+lcd_manager.c:202:6:lcd_show_frame	1
+lcd_manager.c:234:6:lcd_start	4
+lcd_manager.c:260:6:lcd_spi_init	1
+lcd_manager.c:271:6:lcd_handler_run	1
