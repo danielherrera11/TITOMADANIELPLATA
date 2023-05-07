@@ -1,4 +1,0 @@
-sdram_manager.c:6:6:sdram_print_line	5
-sdram_manager.c:34:6:sdram_print_page	2
-sdram_manager.c:41:6:sdram_handler	1
-sdram_manager.c:47:6:sdram_init_sequence	1
