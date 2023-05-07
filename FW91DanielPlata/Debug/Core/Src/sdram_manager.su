@@ -1,4 +1,0 @@
-../Core/Src/sdram_manager.c:6:6:sdram_print_line	40	static
-../Core/Src/sdram_manager.c:34:6:sdram_print_page	24	static
-../Core/Src/sdram_manager.c:41:6:sdram_handler	16	static
-../Core/Src/sdram_manager.c:47:6:sdram_init_sequence	24	static

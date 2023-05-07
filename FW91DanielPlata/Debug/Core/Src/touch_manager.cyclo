@@ -1,6 +1,0 @@
-touch_manager.c:10:5:i2c_touch_read	3
-touch_manager.c:30:5:i2c_touch_write	2
-touch_manager.c:40:6:i2c_touch_init	1
-touch_manager.c:92:5:i2c_touch_detect	3
-touch_manager.c:127:6:i2c_touch_update	7
-touch_manager.c:187:6:i2c_touch_handler	1

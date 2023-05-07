@@ -1,7 +1,0 @@
-../Core/Src/lcd_manager.c:116:6:lcd_command	32	static
-../Core/Src/lcd_manager.c:149:6:lcd_draw_pixel	24	static
-../Core/Src/lcd_manager.c:165:6:lcd_test_image	24	static
-../Core/Src/lcd_manager.c:202:6:lcd_show_frame	16	static
-../Core/Src/lcd_manager.c:234:6:lcd_start	32	static
-../Core/Src/lcd_manager.c:260:6:lcd_spi_init	8	static
-../Core/Src/lcd_manager.c:271:6:lcd_handler_run	16	static
