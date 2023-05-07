@@ -6,3 +6,5 @@ First, I want to present myself, I am Daniel Plata and i want to form part of th
 create branch1 and merge into develop
 
 Create branch FW9 with the sdram, LCD and I2C
+
+cREATE BRANCH FW8 with the USB
