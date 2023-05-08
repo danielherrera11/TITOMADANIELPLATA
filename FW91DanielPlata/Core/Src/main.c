@@ -86,13 +86,22 @@ static void MX_SPI5_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-uint32_t start_address = 0xc0000000; // start address of the SDRAM
+//uint32_t start_address = 0xc0000000; // start address of the SDRAM
+uint32_t start_address = 0x0C0000000;
 
-uint8_t wbuffer[] = {0x1}; // a buffer to store read data
-uint8_t rbuffer[10];
 
-uint32_t read_size = sizeof(rbuffer); // number of bytes to read
-uint32_t write_size = sizeof(wbuffer); // number of bytes to write
+//uint8_t wbuffer[] = {0x1}; // a buffer to store read data
+uint8_t tosavevalue = 0xA3;
+
+//uint8_t rbuffer[10];
+uint8_t readvalue;
+
+//uint32_t read_size = sizeof(rbuffer); // number of bytes to read
+uint32_t read_size = sizeof(tosavevalue);
+
+//uint32_t write_size = sizeof(wbuffer); // number of bytes to write
+uint32_t write_size = sizeof(readvalue);
+
 /* USER CODE END 0 */
 
 /**
@@ -129,16 +138,10 @@ int main(void)
   MX_SPI5_Init();
   /* USER CODE BEGIN 2 */
 
-
-
-
-
   // write data from buffer into SDRAM using 8-bit mode
-  //HAL_SDRAM_Write_8b(&hsdram1, (uint8_t *)(start_address), wbuffer, write_size);
+  HAL_SDRAM_Write_8b(&hsdram1, &(start_address), &tosavevalue, write_size);
   // read data from SDRAM into buffer using 8-bit mode
-  //HAL_SDRAM_Read_8b(&hsdram1, (uint8_t *)(start_address), rbuffer, read_size);
-
-
+  HAL_SDRAM_Read_8b(&hsdram1, &(start_address), &readvalue, read_size);
 
   /* USER CODE END 2 */
 
@@ -156,7 +159,7 @@ int main(void)
 	  i2c_touch_handler();
 	  lcd_handler_run();
 	  HAL_Delay(16);
-	  //HAL_UART_Transmit(&huart1,rbuffer,read_size,10);
+	  HAL_UART_Transmit(&huart1,readvalue,read_size,10);
 
     /* USER CODE END WHILE */
 
